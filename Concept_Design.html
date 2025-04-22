@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Portfolio.css">    
+<style>
+
+    h2 {
+        position: relative; 
+        font-size: 3vw;
+        color: #4DA953;
+    }
+    
+    .tablinks {
+        margin: 5px;
+        margin-right: 2%;
+        position: relative;
+        float: right;
+        display: inline-block;
+    }
+
+    .tablinks2 {
+        margin: 5px;
+        margin-left: 2%;
+        position: relative;
+        float: left;
+        display: inline-block;
+    }
+
+    .tablinks img {
+        width: 120px;
+        border: 4px solid #D7E7D8;
+        justify-content: center;
+        text-align: center;
+        float: right;
+    }
+
+    .tablinks2 img {
+        width: 120px;
+        border: 4px solid #D7E7D8;
+        border-radius: 50%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .tablinks img:hover {
+        box-shadow: inset 0 0 0 1px #4DA953;
+        border-color: #4DA953;
+    }
+
+    .tablinks2 img:hover {
+        box-shadow: inset 0 0 0 1px #4DA953;
+        border-color: #4DA953;
+    }
+
+    .tablinks img:active {
+        border-color: white;
+    }
+
+    .tablinks2 img:active {
+        border-color: white;
+    }
+
+    .tabcontent img {
+        width: 100%;
+    }
+
+    .tabcontent2 img {
+        width: 100%;
+    }
+
+    .ribbon {
+        width: 80px;
+        font-size: 14px;
+        padding: 4px;
+        position: absolute;
+        right: -36px;
+        top: -4px;
+        text-align: center;
+        border-radius: 25px;
+        transform: rotate(40deg);
+        background-color: #2195F3;
+        color: white;
+    }
+</style>
+
+    <title>Concept Design - Yeoh Hui Wuen</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Homepage.html">Homepage</a>
+        <a href="Illustration.html">Illustration</a>
+        <a href="#" style="color: #2195F3;">Concept Design</a>
+        <a href="Photography.html">Photography</a>
+        <a href="Web_Design.html">Web Design</a>
+        <a href="Projects.html">Projects</a>
+        <a href="About_Me.html">About Me</a>
+    </div>
+
+
+    <div class="header">
+        <div class="column left">
+            <h4 style="margin: 0px; font-size: 3.5vw; ">
+                <span style="font-size:30px; width: 20px; cursor:pointer;" onclick="openNav()">&#9776;</span>
+            </h4>
+        </div>
+        <div class="column middle">
+            <h2 style="margin: 0px; font-size: 3.5vw; font-weight: lighter; margin-right: 4%;">CONCEPT DESIGN</h2>
+
+            <div class="detail">
+                <img src="icon-image/information-pamphlet.png" style="width: 36px; opacity: 0.65; margin-top: 0;">
+            </div>
+            <p class="hide" style="font-size: 1.3vw; z-index: 10;">
+                Create a new character by drawing always brings much joy. <br>
+                Each characters are filled with back stories that either represent the artist, or telling a unique stories. <br>
+                I wish to take further studies to complete my original created characters, <br>
+                so I have been studying human anatomy, costume design, colour theories, cultural and object intepretations. <br>
+                <br>
+                There are two sections in this webpage, the characters are designed according to different themes. 
+            </p>
+        </div>
+        <div class="column right">
+            <h4 style="font-size: 1.6vw; margin: 0; font-weight: 600;">Portfolio</h4>
+            <h3 style="font-size: 2.2vw;">Yeoh Hui Wuen</h3>
+        </div>
+    </div>
+
+<div class="content">
+    <div class="container">
+        <div class="row" style="justify-content: center;">
+        <h2 style="position: relative; float: left;">Fantasy</h2>
+        <div class="tablinks">
+            <img src="Concept_Design_Image/Header-Concept-Design/Mary-Icon.jpg" onclick="openMenu(event, 'Mary');" id="myLink">
+        </div>
+        <div class="tablinks">
+            <img src="Concept_Design_Image/Header-Concept-Design/Femo-Icon.jpg" onclick="openMenu(event, 'Femo');" id="myLink">
+        </div>
+        <div class="tablinks">
+            <img src="Concept_Design_Image/Header-Concept-Design/Nightfly-Icon.jpg" onclick="openMenu(event, 'Nightfly');" id="myLink">
+        </div>
+        <div class="tablinks">
+            <img src="Concept_Design_Image/Header-Concept-Design/Meido-Icon.jpg" onclick="openMenu(event, 'Meido');" id="myLink">
+        </div>
+        </div>    
+
+
+            <div id="Mary" class="tabcontent">
+                <img src="Concept_Design_Image/Mary-Character_Design.png">
+            </div>
+            <div id="Femo" class="tabcontent">
+                <img src="Concept_Design_Image/Femo-Character_Design.png">
+            </div>
+            <div id="Nightfly" class="tabcontent">
+                <img src="Concept_Design_Image/Nightfly-Character_Design.png">
+            </div>
+            <div id="Meido" class="tabcontent">
+                <img src="Concept_Design_Image/Meido-Character_Design.png">
+            </div>
+
+    </div>
+</div>
+    
+<br> <br>   
+
+<div class="content">
+    <div class="container">
+        <h2 style="position: relative; float: right;">School</h2>
+        <div class="tablinks2">
+            <img src="Concept_Design_Image/Header-Concept-Design/Moony-Icon.jpg" onclick="openMenu2(event, 'Moony');">
+        </div>
+        <div class="tablinks2">
+            <img src="Concept_Design_Image/Header-Concept-Design/Hime-Icon.jpg" onclick="openMenu2(event, 'Hime');">
+        </div>
+        <div class="tablinks2">
+            <img src="Concept_Design_Image/Header-Concept-Design/Emma-Icon.jpg" onclick="openMenu2(event, 'Emma');">
+        </div>
+        <div class="tablinks2">
+            <img src="Concept_Design_Image/Header-Concept-Design/Ave-Icon.jpg" onclick="openMenu2(event, 'Ave');">
+        </div>
+        <div class="tablinks2">
+            <img src="Concept_Design_Image/Header-Concept-Design/Olivia-Icon.jpg" onclick="openMenu2(event, 'Olivia');">
+            <span class="ribbon">Designing</span>
+        </div>
+        <div class="tablinks2">
+            <img src="Concept_Design_Image/Header-Concept-Design/Nana-Icon.jpg" onclick="openMenu2(event, 'Nana');">
+            <span class="ribbon">Designing</span>
+        </div>
+
+        <div class="content">
+            <div id="Moony" class="tabcontent2">
+                <img src="Concept_Design_Image/Moony-Character_Design.png">
+            </div>
+            <div id="Hime" class="tabcontent2">
+                <img src="Concept_Design_Image/Hime-Character_Design.png">
+            </div>
+            <div id="Emma" class="tabcontent2">
+                <img src="Concept_Design_Image/Emma-Character_Design.png">
+            </div>
+            <div id="Ave" class="tabcontent2">
+                <img src="Concept_Design_Image/Ave-Character_Design.png">
+            </div>
+            <div id="Nana" class="tabcontent2">
+                <img src="Concept_Design_Image/Nana-Character_Design.png">
+            </div>
+            <div id="Olivia" class="tabcontent2">
+                <img src="Concept_Design_Image/Olivia-Character_Design.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<br> <br>    
+    
+<footer>
+    <div class="contact">
+    <h3>Contact Me</h3>     
+        <a href="https://www.behance.net/yeohhuiwuen"><img src="icon-image/behance.png"></a>
+        <a href=mailto:“yhuiwuen@gmail.com”><img src="icon-image/envelope.png"></a>
+        <a href="www.linkedin.com/in/yeoh-hui-wuen-661a732a8"><img src="icon-image/linkedin.png"></a>
+    </div>     
+    <p>Copyright @Yeoh Hui Wuen. All right reserved.</p>
+</footer>  
+ 
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>      
+    
+<script>
+function openMenu(evt, charaName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(charaName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Auto click first tab image on page load
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelector(".tablinks img").click();
+});
+</script>
+    
+<script>
+function openMenu2(evt, charaName2) {
+  var i, tabcontent2, tablinks2;
+
+  // Hide all contents in the second group
+  tabcontent2 = document.getElementsByClassName("tabcontent2");
+  for (i = 0; i < tabcontent2.length; i++) {
+    tabcontent2[i].style.display = "none";
+  }
+
+  // Remove active class from all second group tabs
+  tablinks2 = document.getElementsByClassName("tablinks2");
+  for (i = 0; i < tablinks2.length; i++) {
+    tablinks2[i].className = tablinks2[i].className.replace(" active", "");
+  }
+
+  // Show the selected tab
+  document.getElementById(charaName2).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Auto click first tab in second group
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelector(".tablinks2 img").click();
+});
+</script>        
+    
+</body>
+
+</html>
